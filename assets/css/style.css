@@ -1,0 +1,103 @@
+html {
+    background-image: -moz-linear-gradient(brown, gold);
+    background-color: rgba(34, 145, 1, 0.514); 
+    height: 300px;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    
+}
+
+h1 {
+    background-color: green;
+    color: white;
+    text-align: center;
+    border: 5px double black;
+    width: 200px;
+    height: 75px;
+    margin: 10px;
+    padding: 5px;
+}
+
+#instructions{
+    background-color: brown;
+    color: black;
+    text-align: left;
+    word-wrap: normal;
+    border: 5px double black;
+    width: 400px;
+    margin: 10px;
+    padding: 5px;
+
+
+}
+
+.container{
+    display: flex;
+}
+
+#randomNumber{
+    background-color: lime;
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+    border: 5px double black;
+    padding: 5px;
+    text-shadow: 40px;
+
+
+
+
+}
+
+#winLoses{
+    background-color: skyblue;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border: 5px double black;
+    padding: 5px;
+
+
+}
+
+button{
+    display: inline-block;
+    height: 100px;
+    padding: 0;
+    margin: 0;
+    vertical-align: top;
+    width: 100px;
+}
+
+
+img{
+    display: block;
+    height: 100px;  
+    width: 100px;
+}
+
+
+#score{
+    background-color: grey;
+    width: 200px;
+    height: 50px;
+    margin: 10px;
+    border: 5px double black;
+    padding: 5px;
+
+
+
+}
+
+#randomNumberSum{
+    background-color: grey;
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+    border: 5px double black;
+    padding: 5px;
+
+
+
+}

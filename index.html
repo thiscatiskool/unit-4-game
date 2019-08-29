@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous"></script>
+    <script src="assets/javascript/game.js"></script>
+    
+</head>
+<body>
+    <h1>Crystal Collector</h1>
+    <div class="instructions" id="instructions" >
+        <p>
+            You will be given a random number at the start of the game
+        </p>
+        <p>
+        There are four Crystals below.  By clicking on a Crystal you will add a specific amount of points to your total score.
+        </p>
+        <p>
+        You win the game by matdhing your total score to the random number, you lose the game if your total score goes above the random number.
+        </p>
+        <p>
+        The value of each crystal is hidden from you until you click on it.
+        </p>
+        <p>
+        Each time when the game starts, the game will change the values of each crystal.
+        </p>
+    
+    </div>
+
+    <div class="container">
+        <div class="randomNumber" id="randomNumber"></div>
+        <span id="winLoses">
+            <div id="wins"></div>
+            <div id="loses"></div>
+        </span>
+    </div>
+
+    <button type="button" class="crystals" id="crystal1">
+            <img src="assets/images/gem1.png">
+    </button>
+    <button type="button" class="crystals" id="crystal2"> 
+        <img src="assets/images/gem2.png">
+    </button>
+    <button type="button" class="crystals" id="crystal3"> 
+        <img src="assets/images/gem3.png">
+    </button>
+    <button type="button" class="crystals" id="crystal4"> 
+        <img src="assets/images/gem4.png">
+    </button>
+
+    <div class="score" id="score">Your total score is: </div>
+
+    <div class="sum" id="randomNumberSum"></div>
+    
+</body>
+</html>
